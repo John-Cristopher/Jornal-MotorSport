@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: vendya;
+    text-align: center;
+    align-content: center;
+    color:#2E2E2E;
+    background-color: #D72638;
+    height: 45px;
+   
+}
+main{
+    height: 100vh; /*100% da tela*/
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    align-items: center;
+    background-color:#f0eff4;
+    flex-wrap: wrap;
+}
+@font-face{
+    font-family: vendya;
+
+    src: url("assets/vendya.otf");
+}
+h1{
+    font-family: vendya;
+}
+h2{
+    font-family: vendya;
+}
+.principal{
+    border-radius: 8px;
+    border: solid, #dedae0;
+    background-color: #f0eff4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 41%;
+    
+}
+.foto {
+    max-width: 75%;
+    text-align: center;
+    border-radius: 8px;
+}
+.foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+.assuntoPrimario{
+    background-color: #dedae0;
+    color:#2d3142;
+}
+.menuSecundary{
+    border: solid, #dedae0;
+    width: 40.5%;
+    height: 425px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 8px;
+}
+.secundary{
+    width: 97%;
+    height: 95px;
+    display: flex;
+    align-items: center;
+}
+.photoBox{
+    width: 24%;
+    height: 94px;
+
+}
+.secundaryPhoto{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.assuntoSecundario{
+    background-color: #dedae0;
+    color:#2d3142;
+    margin-left: 10px;
+    width: 72.5%;
+    border-radius: 8px;
+}
+.sponsor{
+    background-color: #dedae0;
+    width: 87.5%;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advertiseAAHW{
+    width: 98%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+}
+.anuncioAAHW{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 8px;
+}
+.displayNews{
+    background-color: #545454;
+    width: 87.5%;
+    height: 175px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #545454;
+    flex-wrap: wrap;
+}
+.noticia{
+    background-color: #2e2e2e;
+    width: 47%;
+    height: 77px;
+    display: flex;
+    justify-content: flex-end;
+}
+.subPhoto{
+    background-color: #D72638;
+    width: 30%;
+    height: 77px;
+}
+footer{
+    text-align: center;
+    align-content: center;
+    color:#2E2E2E;
+    background-color: #D72638;
+    height: 45px;
+}
