@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 header{
-    font-family: vendya;
+    display: flex;
+    font-family: bebasNeue;
     text-align: center;
     align-content: center;
-    color:#2E2E2E;
-    background-color: #D72638;
-    height: 45px;
+    color:#f0eff4;
+    background-color: #2a3e56;
+    height: 75px;
    
 }
 main{
@@ -22,15 +23,21 @@ main{
     flex-wrap: wrap;
 }
 @font-face{
-    font-family: vendya;
+    font-family: bebasNeue;
 
-    src: url("assets/vendya.otf");
+    src: url("assets/bebas_neue/BebasNeue-Regular.otf");
 }
 h1{
-    font-family: vendya;
+    font-family: bebasNeue;
 }
 h2{
-    font-family: vendya;
+    font-family: bebasNeue;
+}
+.nameSite{
+
+}
+.logoLightiningVista{
+
 }
 .principal{
     border-radius: 8px;
@@ -52,14 +59,20 @@ h2{
     height: auto;
     border-radius: 5px;
   }
+  .foto:hover{
+    transform: scale(1.05);
+    transition: 1s;
+  }
 .assuntoPrimario{
+    text-align: center;
+    width: 100%;
     background-color: #dedae0;
     color:#2d3142;
 }
 .menuSecundary{
     border: solid, #dedae0;
     width: 40.5%;
-    height: 425px;
+    height: 375px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -91,6 +104,10 @@ h2{
     width: 72.5%;
     border-radius: 8px;
 }
+.photoBox :hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
 .sponsor{
     background-color: #dedae0;
     width: 87.5%;
@@ -98,12 +115,17 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
 }
 .advertiseAAHW{
     width: 98%;
     height: 105px;
     display: flex;
     justify-content: center;
+}
+.sponsor :hover{
+    transform: scale(1.005);
+    transition: 1s;
 }
 .anuncioAAHW{
     width: 100%;
@@ -132,6 +154,10 @@ h2{
     background-color: #D72638;
     width: 30%;
     height: 77px;
+}
+.smallPhoto{
+    width: 100%;
+    height:auto;
 }
 footer{
     text-align: center;
