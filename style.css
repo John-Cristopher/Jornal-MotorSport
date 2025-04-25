@@ -8,7 +8,6 @@ header{
     font-family: bebasNeue;
     text-align: center;
     align-content: center;
-    color:#f0eff4;
     background-color: #2a3e56;
     height: 75px;
    
@@ -34,7 +33,7 @@ h2{
     font-family: bebasNeue;
 }
 .nameSite{
-
+    color: #f0eff4;
 }
 .logoLightiningVista{
 
@@ -119,7 +118,7 @@ h2{
 }
 .advertiseAAHW{
     width: 98%;
-    height: 105px;
+    height: 110px;
     display: flex;
     justify-content: center;
 }
@@ -134,7 +133,6 @@ h2{
     border-radius: 8px;
 }
 .displayNews{
-    background-color: #545454;
     width: 87.5%;
     height: 175px;
     display: flex;
@@ -146,23 +144,30 @@ h2{
 .noticia{
     background-color: #2e2e2e;
     width: 47%;
-    height: 77px;
+    height: auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .subPhoto{
-    background-color: #D72638;
     width: 30%;
-    height: 77px;
+    height: 100%;
 }
 .smallPhoto{
-    width: 100%;
-    height:auto;
+    width: 50%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+.assuntoTerciario{
+    background-color: aqua;
+    width: 65%;
+    height: auto;
 }
 footer{
     text-align: center;
     align-content: center;
-    color:#2E2E2E;
-    background-color: #D72638;
+    color:#f0eff4;
+    background-color: #2a3e56;
     height: 45px;
 }
