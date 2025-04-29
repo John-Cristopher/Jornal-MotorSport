@@ -6,14 +6,16 @@
 header{
     display: flex;
     font-family: bebasNeue;
-    text-align: center;
+    align-items: center;
+    justify-content: center;  
     align-content: center;
     background-color: #2a3e56;
     height: 75px;
-   
+    padding: 0 20px;
+
 }
 main{
-    height: 100vh; /*100% da tela*/
+    min-height: 110vh; /*100% da tela*/
     display: flex;
     justify-content: space-evenly;
     align-content: space-evenly;
@@ -23,8 +25,15 @@ main{
 }
 @font-face{
     font-family: bebasNeue;
-
     src: url("assets/bebas_neue/BebasNeue-Regular.otf");
+}
+a {
+    color: #2a3e56;          
+    text-decoration: none;
+}
+  a:hover {
+    transition: 0.5s;
+    color: #8f713c;
 }
 h1{
     font-family: bebasNeue;
@@ -32,11 +41,16 @@ h1{
 h2{
     font-family: bebasNeue;
 }
+@font-face{
+    font-family: creato_display;
+    src: url(assets/creato_display/CreatoDisplay-LightItalic.otf);
+}
+p{
+    font-family: creato_display;
+    
+}
 .nameSite{
     color: #f0eff4;
-}
-.logoLightiningVista{
-
 }
 .principal{
     border-radius: 8px;
@@ -45,22 +59,17 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 41%;
-    
+    max-width: 45%;
 }
 .foto {
-    max-width: 75%;
+    max-width: 100%;
     text-align: center;
     border-radius: 8px;
 }
 .foto img {
     width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-  .foto:hover{
-    transform: scale(1.05);
-    transition: 1s;
+    height: 350px;
+    border-radius: 8px;
   }
 .assuntoPrimario{
     text-align: center;
@@ -70,8 +79,8 @@ h2{
 }
 .menuSecundary{
     border: solid, #dedae0;
-    width: 40.5%;
-    height: 375px;
+    width: 45%;
+    height: 400px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -138,31 +147,34 @@ h2{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #545454;
     flex-wrap: wrap;
+    border-radius: 8px;
+    border: solid #dedae0;
 }
 .noticia{
-    background-color: #2e2e2e;
     width: 47%;
-    height: auto;
+    height: 75px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    border-radius: 8px;
 }
 .subPhoto{
-    width: 30%;
-    height: 100%;
+    display: flex;
+    width: 20%;
+    height: 75px;
 }
 .smallPhoto{
-    width: 50%;
-    height: auto;
+    width: 100%;
+    height: 100%;
     display: block;
     border-radius: 10px;
 }
 .assuntoTerciario{
-    background-color: aqua;
+    margin-left: 5px;
     width: 65%;
     height: auto;
+    color:#2d3142;
 }
 footer{
     text-align: center;
