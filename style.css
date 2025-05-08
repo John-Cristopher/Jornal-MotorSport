@@ -1,58 +1,78 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     display: flex;
     font-family: bebasNeue;
     align-items: center;
-    justify-content: center;  
-    align-content: center;
+    justify-content: space-between;
     background-color: #2a3e56;
-    height: 75px;
-    padding: 0 20px;
-
+    height: 100px;
+    padding-left: 100px;
 }
-main{
-    min-height: 110vh; /*100% da tela*/
+
+header img {
+    height: auto;
+    max-height: 80%;
+}
+
+main {
+    min-height: 110vh;
+    /*100% da tela*/
     display: flex;
     justify-content: space-evenly;
     align-content: space-evenly;
     align-items: center;
-    background-color:#f0eff4;
+    background-color: #f0eff4;
     flex-wrap: wrap;
 }
-@font-face{
+
+@font-face {
     font-family: bebasNeue;
     src: url("assets/bebas_neue/BebasNeue-Regular.otf");
 }
+
 a {
-    color: #2a3e56;          
+    color: #2a3e56;
     text-decoration: none;
 }
-  a:hover {
+
+a:hover {
     transition: 0.5s;
     color: #8f713c;
 }
-h1{
+
+h1 {
     font-family: bebasNeue;
 }
-h2{
+
+h2 {
     font-family: bebasNeue;
 }
-@font-face{
+
+@font-face {
     font-family: creato_display;
     src: url(assets/creato_display/CreatoDisplay-LightItalic.otf);
 }
-p{
+
+p {
     font-family: creato_display;
-    
+
 }
-.nameSite{
+
+.nameSite {
     color: #f0eff4;
+    width: 40%;
+    height: auto;
 }
-.principal{
+.aboutMe{
+    color: #f0eff4;
+    height: auto;
+}
+.principal {
     border-radius: 8px;
     border: solid, #dedae0;
     background-color: #f0eff4;
@@ -61,26 +81,30 @@ p{
     align-items: center;
     max-width: 45%;
 }
+
 .foto {
     max-width: 100%;
     text-align: center;
     border-radius: 8px;
 }
+
 .foto img {
     width: 100%;
-    height: 350px;
+    height: 375px;
     border-radius: 8px;
-  }
-.assuntoPrimario{
+}
+
+.assuntoPrimario {
     text-align: center;
     width: 100%;
     background-color: #dedae0;
-    color:#2d3142;
+    color: #2d3142;
 }
-.menuSecundary{
+
+.menuSecundary {
     border: solid, #dedae0;
     width: 45%;
-    height: 400px;
+    height: 450px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -88,35 +112,41 @@ p{
     align-items: center;
     border-radius: 8px;
 }
-.secundary{
+
+.secundary {
     width: 97%;
     height: 95px;
     display: flex;
     align-items: center;
 }
-.photoBox{
+
+.photoBox {
     width: 24%;
     height: 94px;
 
 }
-.secundaryPhoto{
+
+.secundaryPhoto {
     width: 100%;
     height: 100%;
     display: block;
     border-radius: 10px;
 }
-.assuntoSecundario{
+
+.assuntoSecundario {
     background-color: #dedae0;
-    color:#2d3142;
+    color: #2d3142;
     margin-left: 10px;
     width: 72.5%;
     border-radius: 8px;
 }
-.photoBox :hover{
+
+.photoBox :hover {
     transform: scale(1.05);
     transition: 1s;
 }
-.sponsor{
+
+.sponsor {
     background-color: #dedae0;
     width: 87.5%;
     height: 125px;
@@ -125,23 +155,19 @@ p{
     align-items: center;
     border-radius: 8px;
 }
-.advertiseAAHW{
-    width: 98%;
-    height: 110px;
-    display: flex;
-    justify-content: center;
+
+.advertiseAAHW {
+    width: 99%;
+    height: 88%;
 }
-.sponsor :hover{
-    transform: scale(1.005);
-    transition: 1s;
-}
-.anuncioAAHW{
+
+.anuncioAAHW {
     width: 100%;
     height: 100%;
-    display: block;
     border-radius: 8px;
 }
-.displayNews{
+
+.displayNews {
     width: 87.5%;
     height: 175px;
     display: flex;
@@ -151,7 +177,8 @@ p{
     border-radius: 8px;
     border: solid #dedae0;
 }
-.noticia{
+
+.noticia {
     width: 47%;
     height: 75px;
     display: flex;
@@ -159,27 +186,31 @@ p{
     align-items: center;
     border-radius: 8px;
 }
-.subPhoto{
+
+.subPhoto {
     display: flex;
     width: 20%;
     height: 75px;
 }
-.smallPhoto{
+
+.smallPhoto {
     width: 100%;
     height: 100%;
     display: block;
     border-radius: 10px;
 }
-.assuntoTerciario{
+
+.assuntoTerciario {
     margin-left: 5px;
     width: 65%;
     height: auto;
-    color:#2d3142;
+    color: #2d3142;
 }
-footer{
+
+footer {
     text-align: center;
     align-content: center;
-    color:#f0eff4;
+    color: #f0eff4;
     background-color: #2a3e56;
-    height: 45px;
+    height: 50px;
 }
